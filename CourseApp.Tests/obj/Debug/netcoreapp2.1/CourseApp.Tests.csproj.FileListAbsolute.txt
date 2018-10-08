@@ -9,3 +9,11 @@ C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp
 C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.csproj.CoreCompileInputs.cache
 C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.AssemblyInfoInputs.cache
 C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.AssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\bin\Debug\netcoreapp2.1\CourseApp.Tests.pdb
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\bin\Debug\netcoreapp2.1\CourseApp.dll
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\bin\Debug\netcoreapp2.1\CourseApp.pdb
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.csproj.CopyComplete
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.dll
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\obj\Debug\netcoreapp2.1\CourseApp.Tests.pdb
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\bin\Debug\netcoreapp2.1\CourseApp.Views.dll
+C:\Users\WeCanCodeIT\source\repos\CourseApp\CourseApp.Tests\bin\Debug\netcoreapp2.1\CourseApp.Views.pdb

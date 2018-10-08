@@ -16,6 +16,7 @@ namespace CourseApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //services.AddScoped<ICourseRepository, CourseRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,7 +38,7 @@ namespace CourseApp
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Courses}/{action=Index}/{id?}");
             });
         }
     }
