@@ -44,5 +44,22 @@ namespace CourseApp.Tests
             var model = result.Model;
             Assert.Equal(expectedModel, model);
         }
+
+        [Fact]
+        public void Details_Returns_A_View()
+        {
+            var result = underTest.Details(1);
+            Assert.IsType<ViewResult>(result);
+        }
+
+        [Fact]
+        public void Details_Sets_Dog_To_Model()
+        {
+            var expectedModel = new Course();
+            courseRepo.FindById(1).Returns(expectedModel);
+            var result = underTest.Details(1);
+            var model = result.Model;
+            Assert.Equal(expectedModel, model);
+        }
     }
 }

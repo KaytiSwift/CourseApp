@@ -19,5 +19,11 @@ namespace CourseApp
             var model = courseRepo.GetAll();
             return View(model);
         }
+
+        public ViewResult Details(int id)
+        {
+            var model = courseRepo.FindById(id);
+            return View(model);
+        }
     }
 }

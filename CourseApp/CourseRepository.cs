@@ -32,7 +32,12 @@ namespace CourseApp
                 Description ="Intro Course to Javascript"
             }
         };
-        
+
+        public Course FindById(int id)
+        {
+            return all[id-1];
+        }
+
         public List<Course> GetAll()
         {
             

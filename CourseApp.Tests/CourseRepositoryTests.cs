@@ -14,5 +14,13 @@ namespace CourseApp.Tests
             var result = underTest.GetAll();
             Assert.Equal(3, result.Count);
         }
+
+        [Fact]
+        public void FindById_Returns_Correct_Dog()
+        {
+            var underTest = new CourseRepository();
+            var result = underTest.FindById(1);
+            Assert.Equal("HTML", result.Name);
+        }
     }
 }
