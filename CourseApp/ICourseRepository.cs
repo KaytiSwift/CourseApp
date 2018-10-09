@@ -9,5 +9,6 @@ namespace CourseApp
     public interface ICourseRepository
     {
         List<Course> GetAll();
+        Course FindById(int id);
     }
 }
