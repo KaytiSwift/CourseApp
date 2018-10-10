@@ -10,9 +10,9 @@ namespace CourseApp
     {
         private ICourseRepository courseRepo;
 
-        public CoursesController(ICourseRepository reviewRepo)
+        public CoursesController(ICourseRepository courseRepo)
         {
-            this.courseRepo = reviewRepo;
+            this.courseRepo = courseRepo;
         }
         public ViewResult Index()
         {
